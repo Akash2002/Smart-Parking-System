@@ -9,7 +9,9 @@
 		$sql = "UPDATE ParkingLot SET Available = " . $Available . " WHERE position = " . $Pos;
 		print $sql;
 		$result = $conn->query($sql);
-     		$conn->close();
+     	$conn->close();
+        
+
 	?>
 </body>
 </html>
